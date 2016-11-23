@@ -2,7 +2,7 @@
 var x = +prompt ('Введите число');
 var n = +prompt ('Введите степень');
 
-function pow (a, b) {
+function pow (x, n) {
    var result = x;
 
    for (var i = 1; i < n; i++) {
@@ -12,4 +12,4 @@ function pow (a, b) {
 return result;
 }
 
-alert('Результат возведения в степень = ' + pow (x, n) );
+alert('Результат возведения в степень = ' + Math.pow (x, n) );

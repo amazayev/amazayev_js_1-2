@@ -2,10 +2,8 @@
   var arr = [];
 
   for (var i = 0; i < 5; i++) {
-    var a = prompt ("Введите имя пользователя");
-    arr.push(a);
+    arr.push(arr[i] = prompt ("Введите имя пользователя"));
   }
-  console.log(arr);
 
   var a = prompt ("Введите ваше имя");
 
